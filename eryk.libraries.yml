@@ -1,0 +1,20 @@
+global-styling:
+  css:
+    theme:
+      includes/bootstrap/css/bootstrap.css: {}
+
+global-scripts:
+  js:
+    js/bootstrap.js: {}
+  dependencies:
+    - core/jquery
+
+select2:
+  css:
+    component:
+      libraries/select2/select2.min.css: {}
+  js:
+    libraries/select2/select2.min.js: {}
+  dependencies:
+    - core/jquery
+

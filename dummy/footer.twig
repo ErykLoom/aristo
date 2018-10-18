@@ -1,0 +1,67 @@
+<div class="footer__column">
+  {% include '../components/content/item/item.twig' with {
+    header: 'Broschüren & Ratgeber',
+    content: 'Downloadbereich',
+    list: true
+  } %}
+  <div class="border"></div>
+  {% include '../components/content/item/item.twig' with {
+    header: 'Appangebote',
+    content: 'Für Android und iOS',
+    list: true
+  } %}
+  <div class="border"></div>
+  {% include '../components/content/item/item.twig' with {
+    header: 'ARISTOpedia',
+    content: 'Fachbegriff-Lexikon',
+    list: true
+  } %}
+</div>
+<div class="footer__column">
+  {% include '../components/content/item/item.twig' with {
+    content: 'Kontakt',
+    list: true
+  } %}
+  {% include '../components/content/item/item.twig' with {
+    content: 'Impressum',
+    list: true
+  } %}
+  {% include '../components/content/item/item.twig' with {
+    content: 'Drug Safety',
+    list: true
+  } %}
+</div>
+<div class="footer__column">
+  <div class="footer__address">
+    {% include '../components/content/item/item.twig' with {
+      content: 'Aristo Pharma GmbH'
+    } %}
+    {% include '../components/content/item/item.twig' with {
+      content: 'Wallenroder Straße 8-10'
+    } %}
+    {% include '../components/content/item/item.twig' with {
+      content: '13435 Berlin'
+    } %}
+  </div>
+  <div class="footer__contact">
+    {% include '../components/content/item/item.twig' with {
+      content: 'T: +49 (0) 30 - 710 94 - 4200'
+    } %}
+    {% include '../components/content/item/item.twig' with {
+      content: 'F: +49 (0) 30 - 710 94 - 4250'
+    } %}
+  </div>
+  <div class="footer__email">
+    {% include '../components/content/item/item.twig' with {
+      content: 'info@aristo-pharma.de'
+    } %}
+  </div>
+</div>
+<div class="footer__column">
+  {% include '../components/content/item/item.twig' with {
+    content: 'Mitglied des Branchenverbandes:'
+  } %}
+  {% include '../components/media/logo/logo.twig' with {
+    img: 'https://i.imgur.com/AuGja7x.png'
+  }%}
+</div>

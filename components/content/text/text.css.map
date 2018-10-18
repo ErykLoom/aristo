@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACA,KAAK;EACH,KAAK,EAAE,aAAa",
+"sources": ["text.sass"],
+"names": [],
+"file": "text.css"
+}

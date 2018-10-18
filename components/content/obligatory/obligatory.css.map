@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACA,WAAW;EACT,MAAM,EAAE,KAAK;EACb,KAAK,EAAE,IAAI;EACX,aAAa,EAAE,0BAA0B;EAEzC,oBAAU;IACR,KAAK,EAAE,MAAM;IACb,MAAM,EAAE,IAAI",
+"sources": ["obligatory.sass"],
+"names": [],
+"file": "obligatory.css"
+}

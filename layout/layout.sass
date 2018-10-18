@@ -1,0 +1,48 @@
+@import 'colors'
+
+body
+  font-family: AvenirLTStd-Medium, sans-serif
+  font-size: 15px
+
+#page
+  width: 1280px
+  height: 100%
+  margin: 0 auto
+  border: 1px solid color(mystic)
+
+#header
+  display: flex
+  height: 50px
+  border-bottom: 1px solid color(mystic)
+
+  .header__wrapper--left,
+  .header__wrapper--right
+    display: flex
+
+  .header__wrapper--left
+    width: 100%
+
+#footer
+  display: flex
+  padding-top: 35px
+  justify-content: space-evenly
+  height: 265px
+  background-color: color(madison)
+
+  .footer
+    &__column
+      width: 17%
+
+      .item
+        ul
+          list-style-type: none
+          padding: 0
+
+    &__contact
+      margin: 20px 0
+
+  .border
+    margin: 15px 0
+    border-bottom: 1px solid white
+    width: 100%
+    opacity: 0.2

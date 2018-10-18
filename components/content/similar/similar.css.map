@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAGE,gBAAS;EACP,SAAS,EAAE,IAAI;EACf,KAAK,EAAE,YAAY",
+"sources": ["similar.sass"],
+"names": [],
+"file": "similar.css"
+}

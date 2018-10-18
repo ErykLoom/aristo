@@ -1,0 +1,21 @@
+$colors: (
+
+  main: #ffffff,
+  main_dark: #ecf0f2,
+
+  madison: #072c5f,
+
+  shark: #21282f,
+
+  nevada: #686d73,
+
+  mystic: #e4eaed,
+
+  kentucky: #aebec9,
+
+  texas: #f1f4f6,
+);
+
+@function color($name) {
+  @return map-get($colors, $name);
+}

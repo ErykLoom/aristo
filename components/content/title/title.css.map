@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACA,MAAM;EACJ,SAAS,EAAE,IAAI;EACf,KAAK,EAAE,YAAY",
+"sources": ["title.sass"],
+"names": [],
+"file": "title.css"
+}

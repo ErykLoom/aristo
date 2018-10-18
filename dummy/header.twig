@@ -1,0 +1,34 @@
+<div class="header__wrapper--left">
+  {% include '../components/media/logo/logo.twig' with {
+    img: 'https://i.imgur.com/fWVK403.png'
+  }%}
+  {% include '../components/navigation/pager/pager.twig' with {
+    text: 'Unternehmen'
+  } %}
+  {% include '../components/navigation/pager/pager.twig' with {
+    text: 'Produkte'
+  } %}
+  {% include '../components/navigation/pager/pager.twig' with {
+    text: 'Karriere'
+  } %}
+  {% include '../components/navigation/pager/pager.twig' with {
+    text: 'Service'
+  } %}
+  {% include '../components/navigation/pager/pager.twig' with {
+    text: 'Aristo-Lexikon'
+  } %}
+</div>
+<div class="header__wrapper--right">
+  {% include '../components/navigation/button/button.twig' with {
+    content: 'Fachbereich',
+    nav: true
+  } %}
+  {% include '../components/navigation/button/button.twig' with {
+    content: 'DE',
+    placeholder: true
+  } %}
+  {% include '../components/navigation/button/button.twig' with {
+    content: '&#x1f50d',
+    placeholder: true
+  } %}
+</div>

@@ -1,0 +1,19 @@
+<div class="description">
+  <div class="description__wrapper">
+    {% include '../title/title.twig'  with {
+      content: 'Produktbeschreibung',
+    } %}
+    <ul>
+      <li>milde pflanzliche Erkältungseinreibung</li>
+      <li>förder das Abhusten, löst zähen Schleim</li>
+      <li>beruhigt die Atemwege</li>
+      <li>frei von Menthol, Campher und Konservierungsstoffen</li>
+    </ul>
+    {% include '../text/text.twig' with {
+      content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ullamcorper magna eget ultrices mattis. Vestibulum ligula ligula, tempor eget luctus et, volutpat sed dolor. Donec libero nunc, cursus sed consectetur congue, viverra at nulla. Donec convallis odio a ipsum facilisis mollis. Aenean auctor non nunc id dapibus. Quisque mollis eros sed convallis lacinia. Morbi neque neque, sodales non mi ut, dictum ullamcorper erat. Nunc ultrices, tellus sit amet dictum aliquet, leo nulla vehicula urna, vitae volutpat est purus sed lacus. Vivamus vitae ipsum ut magna ornare elementum.'
+    } %}
+    {% include '../text/text.twig' with {
+      content: '*Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ullamcorper magna eget ultrices mattis. Vestibulum ligula ligula, tempor eget luctus et, volutpat sed dolor.'
+    } %}
+  </div>
+</div>

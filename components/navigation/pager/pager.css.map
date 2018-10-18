@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEA,MAAM;EACJ,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,MAAM;EACnB,SAAS,EAAE,IAAI;EAEf,YAAO;IACL,aAAa,EAAE,0BAA0B",
+"sources": ["pager.sass"],
+"names": [],
+"file": "pager.css"
+}

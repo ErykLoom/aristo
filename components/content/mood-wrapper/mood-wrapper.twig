@@ -1,0 +1,35 @@
+<div class="mood-wrapper">
+  <div class="mood-wrapper__title">"Lorem ipsum dolor sit amet adipiscing elit."</div>
+  <div class="mood-wrapper__border"></div>
+  {% include '../../content/item/item.twig' with {
+    header: 'Anwendungsgebiet',
+    content: 'Atemwegs-Therapeutika'
+  } %}
+  <div class="mood-wrapper__border"></div>
+  {% include '../../content/item/item.twig' with {
+    header: 'Darreichungsform',
+    content: 'Creme'
+  } %}
+  <div class="mood-wrapper__border"></div>
+  {% include '../../content/item/item.twig' with {
+    header: 'Aktiver Werkstoff',
+    content: 'Eucalyptusöl, Kiefernnadelöl'
+  } %}
+  <div class="mood-wrapper__border"></div>
+  {% include '../../content/item/item.twig' with {
+    header: 'Besonderheiten',
+  } %}
+  <div class="mood-wrapper__item-wrapper">
+    {% include '../../content/item/item.twig' with {
+      icon: 'https://i.imgur.com/M80XpVQ.png',
+      content: 'Kinderarzneimittel',
+      imtem: true,
+    } %}
+    {% include '../../content/item/item.twig' with {
+      icon: 'https://i.imgur.com/QMv2tl6.png',
+      content: 'Pflanzich',
+      imtem: true,
+    } %}
+  </div>
+  <div class="mood-wrapper__border"></div>
+</div>

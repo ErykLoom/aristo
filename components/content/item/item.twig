@@ -1,0 +1,26 @@
+{% if list %}
+  <div class="item">
+    <ul>
+      <li><div class="item__title">{{ header }}</div></li>
+      <li><div class="item__content">{{ content }}</div></li>
+    </ul>
+  </div>
+{% elseif imtem %}
+  <div class="item-imtem">
+    <div class="item-imtem__icon"><img src="{{ icon }}"></div>
+    <div class="item-imtem__content">{{ content }}</div>
+  </div>
+{% elseif icon %}
+  <div class="item-icon">
+    <div class="item-icon__icon"><img src="{{ icon }}"></div>
+    <div class="item-icon-wrapper">
+      <div class="item-icon__title">{{ header }}</div>
+      <div class="item-icon__content">{{ content }}</div>
+    </div>
+  </div>
+{% else %}
+  <div class="item">
+      <div class="item__title">{{ header }}</div>
+      <div class="item__content">{{ content }}</div>
+  </div>
+{% endif %}

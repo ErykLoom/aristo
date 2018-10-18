@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACA,4BAA4B;EAC1B,MAAM,EAAE,IAAI;;AAEd,qBAAqB;EACnB,OAAO,EAAE,CAAC;;AAEZ,gBAAgB;EACd,aAAa,EAAE,iBAAiB",
+"sources": ["table.sass"],
+"names": [],
+"file": "table.css"
+}

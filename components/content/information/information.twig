@@ -1,0 +1,37 @@
+<div class="information">
+  <div class="information__wrapper">
+    {% include '../title/title.twig'  with {
+      content: 'Produktangaben',
+    } %}
+    {% include '../table/table.twig' %}
+    <div class="information__imtem-wrapper">
+      {% include '../item/item.twig' with {
+        icon: 'https://i.imgur.com/Q1aQaLp.png',
+        content: 'Laktosefrei',
+        imtem: true,
+      } %}
+      {% include '../item/item.twig' with {
+        icon: 'https://i.imgur.com/OPiPIVu.png',
+        content: 'Glutenfrei',
+        imtem: true,
+      } %}
+      {% include '../item/item.twig' with {
+        icon: 'https://i.imgur.com/6vsKHvJ.png',
+        content: 'Teilbar',
+        imtem: true,
+      } %}
+    </div>
+  </div>
+  <div class="information__item-wrapper">
+    {% include '../item/item.twig' with {
+      icon: 'https://i.imgur.com/tL5cFFq.png',
+      header: 'Eucabal - Balsam S',
+      content: 'Fachinformation',
+    } %}
+    {% include '../item/item.twig' with {
+      icon: 'https://i.imgur.com/tL5cFFq.png',
+      header: 'Eucabal - Balsam S',
+      content: 'Gebrauchsinformation',
+    } %}
+  </div>
+</div>

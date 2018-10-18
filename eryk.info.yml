@@ -1,0 +1,13 @@
+name: Eryk
+type: theme
+base theme: classy
+Description: "A modern & responsive Drupal 8 Theme"
+package: custom
+core: 8.x
+libraries:
+  - eryk/global-styling
+  - eryk/global-scripts
+regions:
+  header: header
+  content: content
+  footer: footer
