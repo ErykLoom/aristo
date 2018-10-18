@@ -1,8 +1,8 @@
 .headline {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   height: 120px;
-  padding-top: 70px; }
+  padding: 70px 40px 0; }
   .headline .button--nav {
     height: 40px; }
   .headline__title {
