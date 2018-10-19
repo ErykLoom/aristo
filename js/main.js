@@ -11,7 +11,7 @@ $(document).ready(function () {
   });
 });
 $(document).ready(function() {
-  $('.mood-slider').slick({
+  $('.moody-slider').slick({
     accessibility: false,
     arrows: false,
     draggable: false,
