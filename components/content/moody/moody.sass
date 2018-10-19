@@ -3,29 +3,35 @@
   width: 49%
   display: inline-block
 
-.mood-slider
-  width: 360px
-  left: 178px
-  top: 100px
-
-  img
+  .mood-slider
     width: 360px
+    left: 178px
+    top: 100px
 
-  .dots
-    font-size: 0
-    display: flex
-    padding: 87px
-    justify-content: space-evenly
+    img
+      width: 360px
 
-    li
-      button
-        background: color(kentucky)
-        outline: none
-        border-radius: 100%
-        width: 16px
-        height: 16px
-        font-size: 0
+    .slick-slide
+      margin: 0 100px
 
-    .slick-active
-      button
-        background: color(madison)
+    .slick-list
+      margin: 0 -100px
+
+    .dots
+      font-size: 0
+      display: flex
+      padding: 87px
+      justify-content: space-evenly
+
+      li
+        button
+          background: color(kentucky)
+          outline: none
+          border-radius: 100%
+          width: 16px
+          height: 16px
+          font-size: 0
+
+      .slick-active
+        button
+          background: color(madison)

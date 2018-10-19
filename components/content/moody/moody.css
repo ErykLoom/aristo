@@ -7,7 +7,7 @@ Error: File to import not found or unreadable: colors.
 3:   width: 49%
 4:   display: inline-block
 5: 
-6: .mood-slider
+6:   .mood-slider
 
 Backtrace:
 moody.sass:1
@@ -53,4 +53,4 @@ moody.sass:1
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: File to import not found or unreadable: colors.\A         on line 1 of moody.sass\A \A 1: @import \"colors\"\A 2: .moody\A 3:   width: 49%\A 4:   display: inline-block\A 5: \A 6: .mood-slider"; }
+  content: "Error: File to import not found or unreadable: colors.\A         on line 1 of moody.sass\A \A 1: @import \"colors\"\A 2: .moody\A 3:   width: 49%\A 4:   display: inline-block\A 5: \A 6:   .mood-slider"; }
