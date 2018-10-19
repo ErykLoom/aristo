@@ -7,7 +7,7 @@ Error: File to import not found or unreadable: colors.
 3: .mood-wrapper
 4:   display: inline-block
 5:   vertical-align: top
-6:   margin-left: 50px
+6:   margin: 10px 0 0 50px
 
 Backtrace:
 mood-wrapper.sass:1
@@ -53,4 +53,4 @@ mood-wrapper.sass:1
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: File to import not found or unreadable: colors.\A         on line 1 of mood-wrapper.sass\A \A 1: @import 'colors'\A 2: \A 3: .mood-wrapper\A 4:   display: inline-block\A 5:   vertical-align: top\A 6:   margin-left: 50px"; }
+  content: "Error: File to import not found or unreadable: colors.\A         on line 1 of mood-wrapper.sass\A \A 1: @import 'colors'\A 2: \A 3: .mood-wrapper\A 4:   display: inline-block\A 5:   vertical-align: top\A 6:   margin: 10px 0 0 50px"; }
