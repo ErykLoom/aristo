@@ -57,11 +57,16 @@
     } %}
   </div>
 </div>
-<div class="footer__column">
-  {% include '../components/content/item/item.twig' with {
-    content: 'Mitglied des Branchenverbandes:'
+<div class="footer__column footer__column-last">
+  <div class="footer__column-wrapper">
+    {% include '../components/content/item/item.twig' with {
+      content: 'Mitglied des Branchenverbandes:'
+    } %}
+    {% include '../components/media/logo/logo.twig' with {
+      img: 'https://i.imgur.com/AuGja7x.png'
+    }%}
+  </div>
+  {% include '../components/content/branding/branding.twig' with {
+    content: 'Copyrights Aristo Pharam 2017'
   } %}
-  {% include '../components/media/logo/logo.twig' with {
-    img: 'https://i.imgur.com/AuGja7x.png'
-  }%}
 </div>
